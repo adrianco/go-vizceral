@@ -1,0 +1,66 @@
+{
+  "renderer": "global",
+  "name": "edge",
+  "nodes": [
+    {
+      "renderer": "region",
+      "name": "INTERNET",
+      "updated": 1466838417510,
+      "nodes": [
+      ],
+      "class": "normal"
+    },
+    {
+      "renderer": "region",
+      "name": "us-east-1",
+      "maxVolume": 20000,
+      "class": "normal",
+      "updated": 1466838546805,
+      "nodes": [
+        {
+          "name": "INTERNET",
+          "class": "normal"
+        },
+        {
+          "name": "proxy-prod",
+          "metadata": {
+            "streaming": 1
+          },
+          "class": "normal"
+        }
+      ],
+      "connections": [
+        {
+          "source": "INTERNET",
+          "target": "proxy-prod",
+          "metadata": {
+            "streaming": 1
+          },
+          "metrics": {
+            "danger": 116.524,
+            "normal": 15598.906
+          },
+          "status": {
+            "danger": 281.33,
+            "normal": 65364.56
+          },
+          "class": "normal"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "INTERNET",
+      "target": "us-east-1",
+      "metrics": {
+        "normal": 26037.626,
+        "danger": 92.37
+      },
+      "notices": [
+
+      ],
+      "class": "normal"
+    }
+  ]
+}
