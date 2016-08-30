@@ -5,8 +5,12 @@ The NetflixOSS Vizceral example project is here: https://github.com/Netflix/vizc
 
 It uses a json format file to drive the display, and contains both a default and a simple format example.
 
+The format is defined here:
+https://github.com/Netflix/vizceral/blob/master/DATAFORMATS.md
+
 The examples were copied into this project and had to be modified as described in https://github.com/Netflix/vizceral-example/issues/6
 I ran into an issue where "metadata" is sometimes "streaming": true, and sometimes "streaming": 1 in the main example file, which causes an error when marshal/unmarshal from go. I edited a copy of the example files to use "streaming": 1 everywhere and pretty-printed the main example into a more readable format (using python -m json.tool)
+This issue has now been fixed to make the files consistent.
 
 The top level package contains go structure definitions and code to marshal and unmarshal the example files, along with a test that exercises the code.
 
