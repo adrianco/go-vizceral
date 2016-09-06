@@ -86,7 +86,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.646,
@@ -97,7 +97,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.5820000000000001,
@@ -108,7 +108,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "normal": 11.072
@@ -118,7 +118,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 116.524,
@@ -134,7 +134,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 9.882,
@@ -150,7 +150,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.61,
@@ -166,7 +166,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 59.638,
@@ -182,7 +182,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.014000000000000002,
@@ -197,7 +197,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.08199999999999999,
@@ -2630,7 +2630,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.062,
@@ -2641,7 +2641,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "normal": 57.914
@@ -2651,7 +2651,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 25.444,
@@ -2667,7 +2667,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 1.238,
@@ -2683,7 +2683,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.09,
@@ -2699,7 +2699,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 22.184,
@@ -2715,7 +2715,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "normal": 12.66
@@ -2729,7 +2729,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.01,
@@ -4761,7 +4761,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.10600000000000001,
@@ -4772,7 +4772,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.08,
@@ -4783,7 +4783,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.008,
@@ -4794,7 +4794,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 9.64,
@@ -4821,7 +4821,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 1.472,
@@ -4837,7 +4837,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.466,
@@ -4859,7 +4859,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 63.048,
@@ -4876,7 +4876,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "normal": 18.27
@@ -4890,7 +4890,7 @@
                 {
                     "class": "normal",
                     "metadata": {
-                        "streaming": true
+                        "streaming": 1
                     },
                     "metrics": {
                         "danger": 0.086,

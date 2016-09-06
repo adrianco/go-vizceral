@@ -7,7 +7,7 @@
             },
             "metrics": {
                 "danger": 92.3,
-                "normal": 1000
+                "normal": 10000
             },
             "source": "INTERNET",
             "status": {},
@@ -22,8 +22,7 @@
                 "streaming": 0
             },
             "name": "INTERNET",
-            "renderer": "region",
-            "updated": 1473193659
+            "renderer": "region"
         },
         {
             "class": "normal",
@@ -35,7 +34,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -48,7 +47,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -61,7 +60,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -74,7 +73,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -87,7 +86,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -100,7 +99,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -113,7 +112,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -126,7 +125,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -139,7 +138,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -152,7 +151,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -165,7 +164,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -178,7 +177,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -191,7 +190,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -204,7 +203,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -217,7 +216,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -230,7 +229,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -243,7 +242,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -256,7 +255,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -269,7 +268,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -282,7 +281,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -295,7 +294,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -308,7 +307,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -321,7 +320,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -334,7 +333,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -347,7 +346,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -360,7 +359,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -373,7 +372,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -386,7 +385,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -399,7 +398,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -412,7 +411,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -425,7 +424,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -438,7 +437,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -451,7 +450,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "unsuits",
                     "status": {},
@@ -464,7 +463,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "proxy-prod",
                     "status": {},
@@ -477,7 +476,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "proxy-prod",
                     "status": {},
@@ -490,7 +489,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "upswollen",
                     "status": {},
@@ -503,7 +502,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "upswollen",
                     "status": {},
@@ -516,7 +515,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "upswollen",
                     "status": {},
@@ -529,7 +528,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "upswollen",
                     "status": {},
@@ -542,7 +541,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -555,7 +554,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -568,7 +567,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -581,7 +580,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -594,7 +593,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -607,7 +606,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -620,7 +619,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -633,7 +632,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "overmighty",
                     "status": {},
@@ -646,7 +645,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "micronise",
                     "status": {},
@@ -659,7 +658,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "micronise",
                     "status": {},
@@ -672,7 +671,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "micronise",
                     "status": {},
@@ -685,7 +684,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "micronise",
                     "status": {},
@@ -698,7 +697,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "proxy-log",
                     "status": {},
@@ -711,7 +710,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "proxy-log",
                     "status": {},
@@ -724,7 +723,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "priory",
                     "status": {},
@@ -737,7 +736,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "priory",
                     "status": {},
@@ -750,7 +749,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "priory",
                     "status": {},
@@ -763,7 +762,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -776,7 +775,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -789,7 +788,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -802,7 +801,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -815,7 +814,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -828,7 +827,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -841,7 +840,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -854,7 +853,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -867,7 +866,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -880,7 +879,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -893,7 +892,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -906,7 +905,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -919,7 +918,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -932,7 +931,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "knit",
                     "status": {},
@@ -945,7 +944,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "belletrists",
                     "status": {},
@@ -958,7 +957,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -971,7 +970,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -984,7 +983,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -997,7 +996,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -1010,7 +1009,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -1023,7 +1022,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -1036,7 +1035,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -1049,7 +1048,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -1062,7 +1061,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -1075,7 +1074,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "lists",
                     "status": {},
@@ -1088,7 +1087,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "findram",
                     "status": {},
@@ -1101,7 +1100,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "findram",
                     "status": {},
@@ -1114,7 +1113,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "philosophizer",
                     "status": {},
@@ -1127,7 +1126,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "diehard",
                     "status": {},
@@ -1140,7 +1139,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "diehard",
                     "status": {},
@@ -1153,7 +1152,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "diehard",
                     "status": {},
@@ -1166,7 +1165,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "diehard",
                     "status": {},
@@ -1179,7 +1178,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "megavertebrate",
                     "status": {},
@@ -1192,7 +1191,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "megavertebrate",
                     "status": {},
@@ -1205,7 +1204,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "frailly",
                     "status": {},
@@ -1218,7 +1217,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "quantitations",
                     "status": {},
@@ -1231,7 +1230,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "slogging",
                     "status": {},
@@ -1244,7 +1243,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "slogging",
                     "status": {},
@@ -1257,7 +1256,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "slogging",
                     "status": {},
@@ -1270,7 +1269,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "slogging",
                     "status": {},
@@ -1283,7 +1282,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "slogging",
                     "status": {},
@@ -1296,7 +1295,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "protectors",
                     "status": {},
@@ -1309,7 +1308,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "protectors",
                     "status": {},
@@ -1322,7 +1321,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "basophil",
                     "status": {},
@@ -1335,7 +1334,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "basophil",
                     "status": {},
@@ -1348,7 +1347,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "traditioners",
                     "status": {},
@@ -1361,7 +1360,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "traditioners",
                     "status": {},
@@ -1374,7 +1373,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "traditioners",
                     "status": {},
@@ -1387,7 +1386,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "traditioners",
                     "status": {},
@@ -1400,7 +1399,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "traditioners",
                     "status": {},
@@ -1413,7 +1412,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "traditioners",
                     "status": {},
@@ -1426,7 +1425,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "tantalus",
                     "status": {},
@@ -1439,7 +1438,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "diestock",
                     "status": {},
@@ -1452,7 +1451,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "diestock",
                     "status": {},
@@ -1465,7 +1464,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "gruntle",
                     "status": {},
@@ -1478,7 +1477,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "gruntle",
                     "status": {},
@@ -1491,7 +1490,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "torten",
                     "status": {},
@@ -1504,7 +1503,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "torten",
                     "status": {},
@@ -1517,7 +1516,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "torten",
                     "status": {},
@@ -1530,7 +1529,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "torten",
                     "status": {},
@@ -1543,7 +1542,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "finnesko",
                     "status": {},
@@ -1556,7 +1555,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "immobile",
                     "status": {},
@@ -1569,7 +1568,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "immobile",
                     "status": {},
@@ -1582,7 +1581,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "immobile",
                     "status": {},
@@ -1595,7 +1594,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "immobile",
                     "status": {},
@@ -1608,7 +1607,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "tilburies",
                     "status": {},
@@ -1621,7 +1620,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "tilburies",
                     "status": {},
@@ -1634,7 +1633,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "tilburies",
                     "status": {},
@@ -1647,7 +1646,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "tilburies",
                     "status": {},
@@ -1660,7 +1659,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "niellated",
                     "status": {},
@@ -1673,7 +1672,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "punny",
                     "status": {},
@@ -1686,7 +1685,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "redeposit",
                     "status": {},
@@ -1699,7 +1698,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "redeposit",
                     "status": {},
@@ -1712,7 +1711,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "redeposit",
                     "status": {},
@@ -1725,7 +1724,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "prosaicness",
                     "status": {},
@@ -1738,7 +1737,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "latests",
                     "status": {},
@@ -1751,7 +1750,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "emicate",
                     "status": {},
@@ -1764,7 +1763,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "emicate",
                     "status": {},
@@ -1777,7 +1776,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "emicate",
                     "status": {},
@@ -1790,7 +1789,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "emicate",
                     "status": {},
@@ -1803,7 +1802,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "flavescent",
                     "status": {},
@@ -1816,7 +1815,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "flavescent",
                     "status": {},
@@ -1829,7 +1828,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "flavescent",
                     "status": {},
@@ -1842,7 +1841,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "permillages",
                     "status": {},
@@ -1855,7 +1854,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "flickers",
                     "status": {},
@@ -1868,7 +1867,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "exserted",
                     "status": {},
@@ -1881,7 +1880,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "flossing",
                     "status": {},
@@ -1894,7 +1893,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "neurohypnology",
                     "status": {},
@@ -1907,7 +1906,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "marbleise",
                     "status": {},
@@ -1920,7 +1919,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "sporangiole",
                     "status": {},
@@ -1933,7 +1932,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "INTERNET",
                     "status": {},
@@ -1946,7 +1945,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "INTERNET",
                     "status": {},
@@ -1959,7 +1958,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "INTERNET",
                     "status": {},
@@ -1972,7 +1971,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "INTERNET",
                     "status": {},
@@ -1985,7 +1984,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "INTERNET",
                     "status": {},
@@ -1998,7 +1997,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 500
+                        "normal": 5000
                     },
                     "source": "INTERNET",
                     "status": {},
@@ -2011,14 +2010,14 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 1000
+                        "normal": 10000
                     },
                     "source": "INTERNET",
                     "status": {},
                     "target": "INTERNET"
                 }
             ],
-            "maxVolume": 2000,
+            "maxVolume": 20000,
             "metadata": {
                 "streaming": 1
             },
@@ -2613,8 +2612,7 @@
                     "name": "INTERNET"
                 }
             ],
-            "renderer": "region",
-            "updated": 1473193659
+            "renderer": "region"
         }
     ],
     "renderer": "global"

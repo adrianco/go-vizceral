@@ -1,66 +1,202 @@
 {
-  "renderer": "global",
-  "name": "edge",
-  "nodes": [
-    {
-      "renderer": "region",
-      "name": "INTERNET",
-      "updated": 1466838417510,
-      "nodes": [
-      ],
-      "class": "normal"
-    },
-    {
-      "renderer": "region",
-      "name": "us-east-1",
-      "maxVolume": 20000,
-      "class": "normal",
-      "updated": 1466838546805,
-      "nodes": [
+    "connections": [
         {
-          "name": "INTERNET",
-          "class": "normal"
+            "class": "normal",
+            "metadata": {
+                "streaming": 0
+            },
+            "metrics": {
+                "danger": 92.3,
+                "normal": 10000
+            },
+            "source": "INTERNET",
+            "status": {},
+            "target": "us-east-1"
+        }
+    ],
+    "name": "test",
+    "nodes": [
+        {
+            "class": "normal",
+            "metadata": {
+                "streaming": 0
+            },
+            "name": "INTERNET",
+            "renderer": "region"
         },
         {
-          "name": "proxy-prod",
-          "metadata": {
-            "streaming": true
-          },
-          "class": "normal"
+            "class": "normal",
+            "connections": [
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 5000
+                    },
+                    "source": "homepage",
+                    "status": {},
+                    "target": "mysql"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 5000
+                    },
+                    "source": "signup",
+                    "status": {},
+                    "target": "mysql"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 5000
+                    },
+                    "source": "signup-waf",
+                    "status": {},
+                    "target": "signup"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 5000
+                    },
+                    "source": "www-proxy",
+                    "status": {},
+                    "target": "signup-waf"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 5000
+                    },
+                    "source": "www-proxy",
+                    "status": {},
+                    "target": "homepage"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 5000
+                    },
+                    "source": "www-elb",
+                    "status": {},
+                    "target": "www-proxy"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 5000
+                    },
+                    "source": "www",
+                    "status": {},
+                    "target": "www-elb"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "metrics": {
+                        "danger": 92.3,
+                        "normal": 10000
+                    },
+                    "source": "INTERNET",
+                    "status": {},
+                    "target": "www"
+                }
+            ],
+            "maxVolume": 20000,
+            "metadata": {
+                "streaming": 1
+            },
+            "name": "us-east-1",
+            "nodes": [
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "INTERNET"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "homepage"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "signup"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "signup-waf"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "www-proxy"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "www-elb"
+                },
+                {
+                    "class": "normal",
+                    "metadata": {
+                        "streaming": 1
+                    },
+                    "name": "www"
+                }
+            ],
+            "renderer": "region"
         }
-      ],
-      "connections": [
-        {
-          "source": "INTERNET",
-          "target": "proxy-prod",
-          "metadata": {
-            "streaming": true
-          },
-          "metrics": {
-            "danger": 116.524,
-            "normal": 15598.906
-          },
-          "status": {
-            "danger": 281.33,
-            "normal": 65364.56
-          },
-          "class": "normal"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "INTERNET",
-      "target": "us-east-1",
-      "metrics": {
-        "normal": 26037.626,
-        "danger": 92.37
-      },
-      "notices": [
-
-      ],
-      "class": "normal"
-    }
-  ]
+    ],
+    "renderer": "global"
 }

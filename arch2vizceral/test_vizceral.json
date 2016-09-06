@@ -7,7 +7,7 @@
             },
             "metrics": {
                 "danger": 92.3,
-                "normal": 10000
+                "normal": 1000
             },
             "source": "INTERNET",
             "status": {},
@@ -22,7 +22,8 @@
                 "streaming": 0
             },
             "name": "INTERNET",
-            "renderer": "region"
+            "renderer": "region",
+            "updated": 1473193659
         },
         {
             "class": "normal",
@@ -34,7 +35,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 5000
+                        "normal": 500
                     },
                     "source": "homepage",
                     "status": {},
@@ -47,7 +48,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 5000
+                        "normal": 500
                     },
                     "source": "signup",
                     "status": {},
@@ -60,7 +61,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 5000
+                        "normal": 500
                     },
                     "source": "signup-waf",
                     "status": {},
@@ -73,7 +74,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 5000
+                        "normal": 500
                     },
                     "source": "www-proxy",
                     "status": {},
@@ -86,7 +87,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 5000
+                        "normal": 500
                     },
                     "source": "www-proxy",
                     "status": {},
@@ -99,7 +100,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 5000
+                        "normal": 500
                     },
                     "source": "www-elb",
                     "status": {},
@@ -112,7 +113,7 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 5000
+                        "normal": 500
                     },
                     "source": "www",
                     "status": {},
@@ -125,14 +126,14 @@
                     },
                     "metrics": {
                         "danger": 92.3,
-                        "normal": 10000
+                        "normal": 1000
                     },
                     "source": "INTERNET",
                     "status": {},
                     "target": "www"
                 }
             ],
-            "maxVolume": 20000,
+            "maxVolume": 2000,
             "metadata": {
                 "streaming": 1
             },
@@ -195,7 +196,8 @@
                     "name": "www"
                 }
             ],
-            "renderer": "region"
+            "renderer": "region",
+            "updated": 1473193659
         }
     ],
     "renderer": "global"

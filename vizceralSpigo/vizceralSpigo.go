@@ -6,7 +6,7 @@ import (
 	vizceral "github.com/adrianco/go-vizceral"
 	"github.com/adrianco/spigo/tooling/architecture"
 	"log"
-	//"time"
+	"time"
 	//"os"
 	//"strings"
 )
@@ -49,17 +49,13 @@ func ConvertA2V(arch string) {
 	vg := vizceral.VizceralGraph{"global", arch, 0.0, nil, nil}
 	// regional nodes at the top level of the graph
 	regions := []vizceral.VizceralNode{
-		{"region", "INTERNET", 0.0, 0, // time.Now() change this to unix seconds
-			nil, nil, nil, "normal", vizceral.VizceralMetadata{0},
-		},
-		{"region", "us-east-1", 20000.0, 0, // time.Now() change this to unix seconds
-			nil, nil, nil, "normal", vizceral.VizceralMetadata{1},
-		},
+		{"region", "INTERNET", 0.0, time.Now().Unix(), nil, nil, nil, "normal", vizceral.VizceralMetadata{0}},
+		{"region", "us-east-1", 2000.0, time.Now().Unix(), nil, nil, nil, "normal", vizceral.VizceralMetadata{1}},
 	}
 	vg.Nodes = regions
 	regcons := []vizceral.VizceralConnection{
 		{"INTERNET", "us-east-1", vizceral.VizceralMetadata{0},
-			vizceral.VizceralLevels{92.3, 0.0, 10000.0},
+			vizceral.VizceralLevels{92.3, 0.0, 1000.0},
 			vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
 		},
 	}
@@ -80,14 +76,14 @@ func ConvertA2V(arch string) {
 	for _, c := range deps {
 		if c.Source != c.Dest {
 			conns = append(conns, vizceral.VizceralConnection{c.Source, c.Dest, vizceral.VizceralMetadata{1},
-				vizceral.VizceralLevels{92.3, 0.0, 5000.0},
+				vizceral.VizceralLevels{92.3, 0.0, 500.0},
 				vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
 			})
 		}
 	}
 	// last service in the spigo arch list is the one that drives incoming traffic
 	conns = append(conns, vizceral.VizceralConnection{"INTERNET", services[len(services)-1], vizceral.VizceralMetadata{1},
-		vizceral.VizceralLevels{92.3, 0.0, 10000.0},
+		vizceral.VizceralLevels{92.3, 0.0, 1000.0},
 		vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
 	})
 	regions[1].Connections = conns
