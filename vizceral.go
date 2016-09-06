@@ -37,6 +37,7 @@ type VizceralConnection struct {
 	Metrics  VizceralLevels   `json:"metrics,omitempty"`
 	Status   VizceralLevels   `json:"status,omitempty"`
 	Notices  []VizceralNotice `json:"node,omitempty"`
+	Class    string           `json:"class,omitempty"`
 }
 
 // One node (region/service hierarchy)
