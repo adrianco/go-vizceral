@@ -20,3 +20,4 @@ The arch2vizceral sub-package contains a standalong program that converts Spigo 
 
 To view the output, copy the json result files from arch2vizceral to a copy of vizceral-example/src/sample_data.json and rerun npm install; npm run dev to load the new configuration.
 
+![test](test_spigo_vizceral.png)
