@@ -5,7 +5,7 @@ import (
 	"fmt"
 	vizceral "github.com/adrianco/go-vizceral"
 	"github.com/adrianco/spigo/tooling/architecture"
-	//"log"
+	"log"
 	//"os"
 	//"strings"
 )
@@ -20,7 +20,11 @@ func ConvertV2A(v *vizceral.VizceralGraph) {
 		// only map out the first region we find
 		if region.Name != "INTERNET" {
 			for _, conn := range region.Connections {
-				services[conn.Source] = append(services[conn.Source], conn.Target)
+				if conn.Target == "" {
+					log.Printf("Empty target for\n%v\n", conn)
+				} else {
+					services[conn.Source] = append(services[conn.Source], conn.Target)
+				}
 			}
 			for _, node := range region.Nodes {
 				if node.Name != "INTERNET" { // map the edge node separately

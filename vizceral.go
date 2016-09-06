@@ -1,4 +1,5 @@
 // vizceral generates output in the NetflixOSS vizceral format
+// https://github.com/Netflix/vizceral/blob/master/DATAFORMATS.md
 package vizceral
 
 import (
@@ -13,14 +14,15 @@ type VizceralMetadata struct {
 	Streaming int `json:"streaming"`
 }
 
-// Notice
+// Notice appears in the sidebar
 type VizceralNotice struct {
 	Title    string `json:"title,omitempty"`
+	Subtitle string `json:"subtitle,omitempty"`
 	Link     string `json:"link,omitempty"`
 	Severity int    `json:"severity,omitempty"`
 }
 
-// Levels
+// Levels of trafic in each state
 type VizceralLevels struct {
 	Danger  float32 `json:"danger,omitempty"`
 	Warning float32 `json:"warning,omitempty"`
@@ -37,29 +39,25 @@ type VizceralConnection struct {
 	Notices  []VizceralNotice `json:"node,omitempty"`
 }
 
-// One Service
-type VizceralService struct {
-	Renderer string           `json:"renderer"`
-	Name     string           `json:"name"`
-	Metadata VizceralMetadata `json:"metadata,omitempty"`
-}
-
-// One region
-type VizceralRegion struct {
-	Renderer    string               `json:"renderer,omitempty"`
+// One node (region/service hierarchy)
+type VizceralNode struct {
+	Renderer    string               `json:"renderer,omitempty"` // 'region' or omit for service
 	Name        string               `json:"name,omitempty"`
-	MaxVolume   float32              `json:"maxVolume,omitempty"`
-	Updated     int64                `json:"updated,omitempty"`
-	Nodes       []VizceralService    `json:"nodes,omitempty"`
+	MaxVolume   float64              `json:"maxVolume,omitempty"` // relative base for levels animation
+	Updated     int64                `json:"updated,omitempty"`   // Unix timestamp. Only checked on the top-level list of nodes. Last time the data was updated
+	Nodes       []VizceralNode       `json:"nodes,omitempty"`
 	Connections []VizceralConnection `json:"connections,omitempty"`
-	Class       string               `json:"class,omitempty"`
+	Notices     []VizceralNotice     `json:"node,omitempty"`
+	Class       string               `json:"class,omitempty"` // 'normal', 'warning', or 'danger'
+	Metadata    VizceralMetadata     `json:"metadata,omitempty"`
 }
 
 // Global level of graph file format
 type VizceralGraph struct {
-	Renderer    string               `json:"renderer"`
+	Renderer    string               `json:"renderer"` // 'global'
 	Name        string               `json:"name"`
-	Nodes       []VizceralRegion     `json:"nodes,omitempty"`
+	MaxVolume   float64              `json:"maxVolume,omitempty"` // relative base for levels animation
+	Nodes       []VizceralNode       `json:"nodes,omitempty"`
 	Connections []VizceralConnection `json:"connections,omitempty"`
 }
 
