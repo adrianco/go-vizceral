@@ -51,11 +51,26 @@ func ConvertA2V(arch string) {
 	regions := []vizceral.VizceralNode{
 		{"region", "INTERNET", 0.0, time.Now().Unix(), nil, nil, nil, "normal", vizceral.VizceralMetadata{0}},
 		{"region", "us-east-1", 2000.0, time.Now().Unix(), nil, nil, nil, "normal", vizceral.VizceralMetadata{1}},
+		{"region", "eu-west-1", 2000.0, time.Now().Unix(), nil, nil, nil, "normal", vizceral.VizceralMetadata{1}},
+		{"region", "us-west-2", 2000.0, time.Now().Unix(), nil, nil, nil, "normal", vizceral.VizceralMetadata{1}},
+		{"region", "ap-southeast-1", 2000.0, time.Now().Unix(), nil, nil, nil, "normal", vizceral.VizceralMetadata{1}},
 	}
 	vg.Nodes = regions
 	regcons := []vizceral.VizceralConnection{
 		{"INTERNET", "us-east-1", vizceral.VizceralMetadata{0},
 			vizceral.VizceralLevels{92.3, 0.0, 1000.0},
+			vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
+		},
+		{"INTERNET", "us-west-2", vizceral.VizceralMetadata{0},
+			vizceral.VizceralLevels{62.3, 0.0, 800.0},
+			vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
+		},
+		{"INTERNET", "eu-west-1", vizceral.VizceralMetadata{0},
+			vizceral.VizceralLevels{32.3, 0.0, 900.0},
+			vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
+		},
+		{"INTERNET", "ap-southeast-1", vizceral.VizceralMetadata{0},
+			vizceral.VizceralLevels{32.3, 0.0, 400.0},
 			vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
 		},
 	}
@@ -71,6 +86,9 @@ func ConvertA2V(arch string) {
 		})
 	}
 	regions[1].Nodes = nodes
+	regions[2].Nodes = nodes
+	regions[3].Nodes = nodes
+	regions[4].Nodes = nodes
 	// service connections inside a region
 	var conns []vizceral.VizceralConnection
 	for _, c := range deps {
@@ -87,5 +105,8 @@ func ConvertA2V(arch string) {
 		vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
 	})
 	regions[1].Connections = conns
+	regions[2].Connections = conns
+	regions[3].Connections = conns
+	regions[4].Connections = conns
 	vizceral.Write(&vg)
 }
