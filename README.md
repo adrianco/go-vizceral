@@ -18,7 +18,7 @@ The vizceralSpigo sub-package contains code that reads/writes vizceral format fi
 
 The vizceral2arch sub-package contains a standalone program that converts files using vizceralSpigo
 
-The arch2vizceral sub-package contains a standalong program that converts Spigo format arch files to vizceral
+The arch2vizceral sub-package contains a standalone program that converts Spigo format arch files to vizceral
 
 To view the output, copy the json result files from arch2vizceral to a copy of vizceral-example/src/sample_data.json and rerun npm run dev to load the new configuration.
 
