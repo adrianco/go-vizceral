@@ -77,12 +77,13 @@ func ConvertA2V(arch string) {
 	vg.Connections = regcons
 
 	// service nodes inside a region
+	notice := []vizceral.VizceralNotice{{"notice title", "notice subtitle", "http://github.com/adrianco/spigo", 2}}
 	nodes := []vizceral.VizceralNode{
 		{"", "INTERNET", 0.0, 0, nil, nil, nil, "normal", vizceral.VizceralMetadata{1}},
 	}
 	for _, s := range services {
 		nodes = append(nodes, vizceral.VizceralNode{
-			"", s, 0.0, 0, nil, nil, nil, "normal", vizceral.VizceralMetadata{1},
+			"", s, 0.0, 0, nil, nil, notice, "normal", vizceral.VizceralMetadata{1},
 		})
 	}
 	regions[1].Nodes = nodes
@@ -95,7 +96,7 @@ func ConvertA2V(arch string) {
 		if c.Source != c.Dest {
 			conns = append(conns, vizceral.VizceralConnection{c.Source, c.Dest, vizceral.VizceralMetadata{1},
 				vizceral.VizceralLevels{92.3, 0.0, 500.0},
-				vizceral.VizceralLevels{0, 0, 0}, nil, "normal",
+				vizceral.VizceralLevels{0, 0, 0}, notice, "normal",
 			})
 		}
 	}

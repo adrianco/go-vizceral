@@ -48,7 +48,7 @@ type VizceralNode struct {
 	Updated     int64                `json:"updated,omitempty"`   // Unix timestamp. Only checked on the top-level list of nodes. Last time the data was updated
 	Nodes       []VizceralNode       `json:"nodes,omitempty"`
 	Connections []VizceralConnection `json:"connections,omitempty"`
-	Notices     []VizceralNotice     `json:"node,omitempty"`
+	Notices     []VizceralNotice     `json:"notices,omitempty"`
 	Class       string               `json:"class,omitempty"` // 'normal', 'warning', or 'danger'
 	Metadata    VizceralMetadata     `json:"metadata,omitempty"`
 }

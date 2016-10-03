@@ -62,7 +62,7 @@
             },
             "name": "INTERNET",
             "renderer": "region",
-            "updated": 1473209912
+            "updated": 1475350344
         },
         {
             "class": "normal",
@@ -76,6 +76,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "homepage",
                     "status": {},
                     "target": "mysql"
@@ -89,6 +97,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup",
                     "status": {},
                     "target": "mysql"
@@ -102,6 +118,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup-waf",
                     "status": {},
                     "target": "signup"
@@ -115,6 +139,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "signup-waf"
@@ -128,6 +160,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "homepage"
@@ -141,6 +181,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-elb",
                     "status": {},
                     "target": "www-proxy"
@@ -154,6 +202,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www",
                     "status": {},
                     "target": "www-elb"
@@ -190,53 +246,109 @@
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "mysql"
+                    "name": "mysql",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "homepage"
+                    "name": "homepage",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup"
+                    "name": "signup",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup-waf"
+                    "name": "signup-waf",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-proxy"
+                    "name": "www-proxy",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-elb"
+                    "name": "www-elb",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www"
+                    "name": "www",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 }
             ],
             "renderer": "region",
-            "updated": 1473209912
+            "updated": 1475350344
         },
         {
             "class": "normal",
@@ -250,6 +362,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "homepage",
                     "status": {},
                     "target": "mysql"
@@ -263,6 +383,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup",
                     "status": {},
                     "target": "mysql"
@@ -276,6 +404,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup-waf",
                     "status": {},
                     "target": "signup"
@@ -289,6 +425,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "signup-waf"
@@ -302,6 +446,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "homepage"
@@ -315,6 +467,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-elb",
                     "status": {},
                     "target": "www-proxy"
@@ -328,6 +488,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www",
                     "status": {},
                     "target": "www-elb"
@@ -364,53 +532,109 @@
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "mysql"
+                    "name": "mysql",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "homepage"
+                    "name": "homepage",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup"
+                    "name": "signup",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup-waf"
+                    "name": "signup-waf",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-proxy"
+                    "name": "www-proxy",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-elb"
+                    "name": "www-elb",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www"
+                    "name": "www",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 }
             ],
             "renderer": "region",
-            "updated": 1473209912
+            "updated": 1475350344
         },
         {
             "class": "normal",
@@ -424,6 +648,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "homepage",
                     "status": {},
                     "target": "mysql"
@@ -437,6 +669,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup",
                     "status": {},
                     "target": "mysql"
@@ -450,6 +690,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup-waf",
                     "status": {},
                     "target": "signup"
@@ -463,6 +711,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "signup-waf"
@@ -476,6 +732,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "homepage"
@@ -489,6 +753,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-elb",
                     "status": {},
                     "target": "www-proxy"
@@ -502,6 +774,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www",
                     "status": {},
                     "target": "www-elb"
@@ -538,53 +818,109 @@
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "mysql"
+                    "name": "mysql",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "homepage"
+                    "name": "homepage",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup"
+                    "name": "signup",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup-waf"
+                    "name": "signup-waf",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-proxy"
+                    "name": "www-proxy",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-elb"
+                    "name": "www-elb",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www"
+                    "name": "www",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 }
             ],
             "renderer": "region",
-            "updated": 1473209912
+            "updated": 1475350344
         },
         {
             "class": "normal",
@@ -598,6 +934,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "homepage",
                     "status": {},
                     "target": "mysql"
@@ -611,6 +955,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup",
                     "status": {},
                     "target": "mysql"
@@ -624,6 +976,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "signup-waf",
                     "status": {},
                     "target": "signup"
@@ -637,6 +997,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "signup-waf"
@@ -650,6 +1018,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-proxy",
                     "status": {},
                     "target": "homepage"
@@ -663,6 +1039,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www-elb",
                     "status": {},
                     "target": "www-proxy"
@@ -676,6 +1060,14 @@
                         "danger": 92.3,
                         "normal": 500
                     },
+                    "node": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ],
                     "source": "www",
                     "status": {},
                     "target": "www-elb"
@@ -712,53 +1104,109 @@
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "mysql"
+                    "name": "mysql",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "homepage"
+                    "name": "homepage",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup"
+                    "name": "signup",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "signup-waf"
+                    "name": "signup-waf",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-proxy"
+                    "name": "www-proxy",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www-elb"
+                    "name": "www-elb",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 },
                 {
                     "class": "normal",
                     "metadata": {
                         "streaming": 1
                     },
-                    "name": "www"
+                    "name": "www",
+                    "notices": [
+                        {
+                            "link": "http://github.com/adrianco/spigo",
+                            "severity": 2,
+                            "subtitle": "notice subtitle",
+                            "title": "notice title"
+                        }
+                    ]
                 }
             ],
             "renderer": "region",
-            "updated": 1473209912
+            "updated": 1475350344
         }
     ],
     "renderer": "global"
